@@ -17,7 +17,7 @@ const reducer = (state = initialState, {type, payload}) => {
         case REMOVE_FAV:
             return{
                 ...state,
-                myFavorites: state.myfavorites.filter (fav => fav.id !== payload)
+                myFavorites: state.myFavorites.filter (fav => fav.id !== payload)
 
             }
 

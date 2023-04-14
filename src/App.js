@@ -46,10 +46,10 @@ function App() {
    }
 
    const onClose = (id) => {
-      if (characters && characters.length > 0) {
+   
       const charactersFiltered = characters.filter(character => character.id !== id)
       setCharacters(charactersFiltered)
-      }
+      
    }
 
    return (
